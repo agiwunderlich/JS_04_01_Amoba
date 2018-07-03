@@ -1,0 +1,15 @@
+td {
+    width: 2.5rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+td:not(.cursor){
+    border: 1px solid grey;
+}
+
+td.cursor {
+    border: 2px solid blue;
+}
+
